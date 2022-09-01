@@ -21,6 +21,8 @@
     "webpack-dev-server": "^4.10.1"
   },
   "dependencies": {
-    "css-minify": "^2.0.0"
+    "css-minify": "^2.0.0",
+    "moment": "^2.29.4",
+    "uuid": "^3.2.1"
   }
 }

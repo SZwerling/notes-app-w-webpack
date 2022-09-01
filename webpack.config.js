@@ -3,11 +3,12 @@ const path = require('path')
 module.exports = {
     mode: 'production',
     entry: {
-      bundle: path.resolve(__dirname, "src/index.js"), // could specify other entries for code splitting
+      index: path.resolve(__dirname, "src/index.js"), // could specify other entries for code splitting
+      edit: path.resolve(__dirname, "src/edit.js"),
      },
      output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "[name].js",
+        filename: "[name]-bundle.js",
       
      },
      devtool: 'source-map',
